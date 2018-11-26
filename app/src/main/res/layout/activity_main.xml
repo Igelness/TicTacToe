@@ -33,8 +33,7 @@
             android:textSize="24sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tv_pl1"
-            android:freezesText="true"
-            />
+            android:freezesText="true" />
 
         <Button
             android:id="@+id/button_reset"
@@ -44,8 +43,12 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@android:color/holo_red_light"
             android:text="@string/reset"
+            android:textColor="@android:color/white"
             android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tv_pl2" />
@@ -64,7 +67,15 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:freezesText="true"/>
+            android:freezesText="true"
+            android:background="#1B1B1B"
+            android:textColor="#3C4DAE"
+            android:textSize="36sp"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray"/>
 
         <Button
             android:id="@+id/button_01"
@@ -72,7 +83,16 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:freezesText="true"/>
+            android:freezesText="true"
+            android:background="#1B1B1B"
+            android:textColor="#3C4DAE"
+            android:textSize="36sp"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray"
+            android:textSize="36sp"/>
 
         <Button
             android:id="@+id/button_02"
@@ -80,9 +100,18 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:freezesText="true"/>
+            android:freezesText="true"
+            android:background="#1B1B1B"
+            android:textColor="#3C4DAE"
+            android:textSize="36sp"/>
 
     </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -95,7 +124,15 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:freezesText="true"/>
+            android:freezesText="true"
+            android:background="#1B1B1B"
+            android:textColor="#3C4DAE"
+            android:textSize="36sp"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray"/>
 
         <Button
             android:id="@+id/button_11"
@@ -103,7 +140,15 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:freezesText="true"/>
+            android:freezesText="true"
+            android:background="#1B1B1B"
+            android:textColor="#3C4DAE"
+            android:textSize="36sp"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray"/>
 
         <Button
             android:id="@+id/button_12"
@@ -111,9 +156,19 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:freezesText="true"/>
+            android:freezesText="true"
+            android:background="#1B1B1B"
+            android:textColor="#3C4DAE"
+            android:textSize="36sp"/>
+
+
 
     </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -127,7 +182,16 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:freezesText="true"/>
+            android:freezesText="true"
+            android:background="#1B1B1B"
+            android:textColor="#3C4DAE"
+            tools:text="@string/cross"
+            android:textSize="36sp"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray"/>
 
         <Button
             android:id="@+id/button_21"
@@ -135,7 +199,16 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:freezesText="true"/>
+            android:freezesText="true"
+            android:background="#1B1B1B"
+            android:textColor="#3C4DAE"
+            android:textSize="36sp"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray"
+            android:textSize="36sp"/>
 
         <Button
             android:id="@+id/button_22"
@@ -143,7 +216,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:freezesText="true"/>
+            android:freezesText="true"
+            android:background="#1B1B1B"
+            android:textColor="#3C4DAE"
+            android:textSize="36sp"/>
 
     </LinearLayout>
 
