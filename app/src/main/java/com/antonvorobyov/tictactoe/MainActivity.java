@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         if(player1Turn) {
             ((Button)v).setText(R.string.cross);
+            ((Button) v).setTextColor(getResources().getColor(R.color.colorCross));
         } else {
             ((Button)v).setText(R.string.nought);
         }
