@@ -20,7 +20,8 @@
             android:layout_marginStart="8dp"
             android:text="@string/player_one"
             android:textSize="24sp"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            android:freezesText="true"/>
 
         <TextView
             android:id="@+id/tv_pl2"
@@ -32,6 +33,7 @@
             android:textSize="24sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tv_pl1"
+            android:freezesText="true"
             />
 
         <Button
@@ -61,21 +63,24 @@
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:freezesText="true"/>
 
         <Button
             android:id="@+id/button_01"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:freezesText="true"/>
 
         <Button
             android:id="@+id/button_02"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:freezesText="true"/>
 
     </LinearLayout>
     <LinearLayout
@@ -89,21 +94,24 @@
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:freezesText="true"/>
 
         <Button
             android:id="@+id/button_11"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:freezesText="true"/>
 
         <Button
             android:id="@+id/button_12"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:freezesText="true"/>
 
     </LinearLayout>
 
@@ -118,21 +126,24 @@
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:freezesText="true"/>
 
         <Button
             android:id="@+id/button_21"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:freezesText="true"/>
 
         <Button
             android:id="@+id/button_22"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:freezesText="true"/>
 
     </LinearLayout>
 
